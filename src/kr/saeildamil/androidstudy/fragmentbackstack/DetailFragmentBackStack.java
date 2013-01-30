@@ -32,10 +32,10 @@ public class DetailFragmentBackStack extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		View v = inflater.inflate(R.layout.detailfragmentbackstack, container);
+		View v = inflater.inflate(R.layout.detailfragmentbackstack, container, false);
 		TextView tv = (TextView) v.findViewById(R.id.detail_tv);
 		String[] list = getResources().getStringArray(R.array.fraglists);
 		tv.setText(list[getArguments().getInt("position", 0)]);
-		return inflater.inflate(R.layout.detailfragmentbackstack, container);
+		return v;
 	}
 }

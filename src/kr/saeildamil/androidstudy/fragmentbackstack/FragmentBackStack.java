@@ -39,10 +39,10 @@ public class FragmentBackStack extends Activity implements OnListItemSeletedList
 	@Override
 	public void onListItemSelected(int position) {
 		DetailFragmentBackStack df = (DetailFragmentBackStack) getFragmentManager().findFragmentById(R.id.detail);
-		if (df != null && df.getArguments().getInt("position", 0) != position){
+		if (df == null || df.getArguments().getInt("position", 0) != position){
 			df = new DetailFragmentBackStack();
 			Bundle b = new Bundle();
-			b.putInt("position", 0);
+			b.putInt("position", position);
 			df.setArguments(b);
 			FragmentTransaction ft = getFragmentManager().beginTransaction();
 			ft.replace(R.id.detail, df).addToBackStack(null).commit();
