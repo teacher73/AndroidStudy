@@ -26,7 +26,7 @@ public class ListFrag extends ListFragment {
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
-		setListAdapter(new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, R.array.fraglists));
+		setListAdapter(ArrayAdapter.createFromResource(getActivity(), R.array.fraglists, android.R.layout.simple_list_item_1));
 	}
 
 	@Override

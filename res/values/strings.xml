@@ -9,5 +9,6 @@
     <string name="fragmentportrait">Fragment : Portrait</string>
     <string name="fragmentlandscape">Fragment : Landscape</string>
     <string name="fragmentmaintwo">FragmentTwo</string>
+    <string name="fragmentapp">FragmentList</string>
 
 </resources>

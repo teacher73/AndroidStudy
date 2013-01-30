@@ -6,11 +6,10 @@
 
     <fragment
         android:id="@+id/fragment1"
-        android:name="kr.saeildamil.androidstudy.fragmentapp.ListFragment"
+        android:name="kr.saeildamil.androidstudy.fragmentapp.ListFrag"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        class="kr.saeildamil.androidstudy.fragmentapp.ListFrag" />
+        android:layout_weight="1" />
 
     <fragment
         android:id="@+id/fragment2"
