@@ -1,7 +1,7 @@
 package kr.saeildamil.androidstudy;
 
 import kr.saeildamil.androidstudy.fragmentcode.FragmentMainTwo;
-import kr.saeildamil.androidstudy.fragmentxml.FragmentMain;
+import kr.saeildamil.androidstudy.fragmentxml.FragmentMainOne;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 	public void mOnClick(View v){
 		switch(v.getId()){
 		case R.id.main_btn01:
-			startActivity(new Intent(MainActivity.this, FragmentMain.class));
+			startActivity(new Intent(MainActivity.this, FragmentMainOne.class));
 			break;
 		case R.id.main_btn02:
 			startActivity(new Intent(MainActivity.this, FragmentMainTwo.class));

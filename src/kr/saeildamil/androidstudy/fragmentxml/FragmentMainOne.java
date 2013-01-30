@@ -5,7 +5,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 
-public class FragmentMain extends Activity {
+public class FragmentMainOne extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		Log.d("Fragment", "FragmentMain - onCreate(Bundle savedInstanceState)");
