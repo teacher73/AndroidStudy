@@ -42,4 +42,13 @@
         android:onClick="mOnClick"
         android:text="@string/fragmentapp" />
 
+    <Button
+        android:id="@+id/main_btn04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/main_btn03"
+        android:onClick="mOnClick"
+        android:text="@string/backstackfragment" />
+
 </RelativeLayout>

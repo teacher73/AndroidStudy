@@ -10,5 +10,6 @@
     <string name="fragmentlandscape">Fragment : Landscape</string>
     <string name="fragmentmaintwo">FragmentTwo</string>
     <string name="fragmentapp">FragmentList</string>
+    <string name="backstackfragment">FragmentBackStack</string>
 
 </resources>

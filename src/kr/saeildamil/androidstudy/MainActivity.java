@@ -1,6 +1,7 @@
 package kr.saeildamil.androidstudy;
 
 import kr.saeildamil.androidstudy.fragmentapp.FragmentAppList;
+import kr.saeildamil.androidstudy.fragmentbackstack.FragmentBackStack;
 import kr.saeildamil.androidstudy.fragmentcode.FragmentMainTwo;
 import kr.saeildamil.androidstudy.fragmentxml.FragmentMainOne;
 import android.app.Activity;
@@ -26,6 +27,9 @@ public class MainActivity extends Activity {
 			break;
 		case R.id.main_btn03:
 			startActivity(new Intent(MainActivity.this, FragmentAppList.class));
+			break;
+		case R.id.main_btn04:
+			startActivity(new Intent(MainActivity.this, FragmentBackStack.class));
 			break;
 		}
 	}

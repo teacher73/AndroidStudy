@@ -25,6 +25,7 @@
         <activity android:name=".fragmentxml.FragmentMainOne"></activity>
         <activity android:name=".fragmentcode.FragmentMainTwo"></activity>
         <activity android:name=".fragmentapp.FragmentAppList"></activity>
+        <activity android:name=".fragmentbackstack.FragmentBackStack"></activity>
     </application>
 
 </manifest>
