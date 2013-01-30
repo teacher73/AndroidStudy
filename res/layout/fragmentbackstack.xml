@@ -5,17 +5,19 @@
     android:orientation="horizontal" >
 
     <fragment
-        android:id="@+id/fragment1"
-        android:name="kr.saeildamil.androidstudy.fragmentapp.ListFrag"
+        android:id="@+id/list"
+        android:name="kr.saeildamil.androidstudy.LeftFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
-    <fragment
-        android:id="@+id/fragment2"
-        android:name="kr.saeildamil.androidstudy.fragmentapp.DetailFragment"
+    <FrameLayout
+        android:id="@+id/detail"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="5" />
+        android:layout_weight="5" 
+        android:background="?android:attr/detailsElementBackground">
+
+    </FrameLayout>
 
 </LinearLayout>
