@@ -1,4 +1,4 @@
-package kr.saeildamil.androidstudy.fragment;
+package kr.saeildamil.androidstudy.fragmentxml;
 
 import kr.saeildamil.androidstudy.R;
 import android.app.Activity;

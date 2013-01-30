@@ -1,6 +1,7 @@
 package kr.saeildamil.androidstudy;
 
-import kr.saeildamil.androidstudy.fragment.FragmentMain;
+import kr.saeildamil.androidstudy.fragmentcode.FragmentMainTwo;
+import kr.saeildamil.androidstudy.fragmentxml.FragmentMain;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,7 +20,9 @@ public class MainActivity extends Activity {
 		case R.id.main_btn01:
 			startActivity(new Intent(MainActivity.this, FragmentMain.class));
 			break;
-			
+		case R.id.main_btn02:
+			startActivity(new Intent(MainActivity.this, FragmentMainTwo.class));
+			break;
 		}
 	}
 

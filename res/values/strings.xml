@@ -6,5 +6,8 @@
     <string name="menu_settings">Settings</string>
     <string name="fragmentoneactivityname">Fragment #1</string>
     <string name="mainlist">Fragment &amp; ActionBar</string>
+    <string name="fragmentportrait">Fragment : Portrait</string>
+    <string name="fragmentlandscape">Fragment : Landscape</string>
+    <string name="fragmentmaintwo">FragmentTwo</string>
 
 </resources>
