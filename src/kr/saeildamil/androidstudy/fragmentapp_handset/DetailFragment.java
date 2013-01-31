@@ -12,7 +12,7 @@ public class DetailFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		View view = inflater.inflate(R.layout.detailfragment, container);
+		View view = inflater.inflate(R.layout.detailfragment, container, false);
 		TextView tv = (TextView) view.findViewById(R.id.detailfragment_tv);
 		String[] list = getResources().getStringArray(R.array.fraglists);
 		tv.setText(list[getArguments().getInt("position", 0)]);
