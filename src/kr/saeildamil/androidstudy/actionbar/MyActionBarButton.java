@@ -6,7 +6,8 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 public class MyActionBarButton extends Activity {
 	@Override
@@ -25,12 +26,17 @@ public class MyActionBarButton extends Activity {
 	}
 	
 	public void mOnClick(View v){
-		LinearLayout layout = (LinearLayout) findViewById(R.id.body);
+		RelativeLayout layout = (RelativeLayout) findViewById(R.id.body);
+		TextView tv = (TextView) findViewById(R.id.myactionbarbutton_tv);
 		switch(v.getId()){
 		case R.id.button_white:
-			layout.setBackgroundColor(Color.WHITE);	break;
+			layout.setBackgroundColor(Color.WHITE);	
+			tv.setTextColor(Color.BLACK);
+			break;
 		case R.id.button_black:
-			layout.setBackgroundColor(Color.BLACK); break;
+			layout.setBackgroundColor(Color.BLACK); 
+			tv.setTextColor(Color.WHITE);
+			break;
 		}
 	}
 }
