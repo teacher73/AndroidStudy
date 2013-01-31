@@ -60,4 +60,22 @@
         android:onClick="mOnClick"
         android:text="@string/handsetfragment" />
 
+    <Button
+        android:id="@+id/main_btn06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/main_btn05"
+        android:onClick="mOnClick"
+        android:text="ActionBar" />
+
+    <Button
+        android:id="@+id/main_btn07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/main_btn06"
+        android:onClick="mOnClick"
+        android:text="ActionBar Button" />
+
 </RelativeLayout>

@@ -1,9 +1,28 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/menu_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/menu_settings"/>
+        android:id="@+id/add"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="추가"/>
+    <item
+        android:id="@+id/refresh"
+        android:showAsAction="always|withText"
+        android:title="갱신">
+    </item>
+    <item
+        android:id="@+id/search"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="검색">
+    </item>
 
+    <item
+        android:id="@+id/share"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="공유" />
+    <item
+        android:id="@+id/etc"
+        android:title="기타" />
 </menu>

@@ -28,6 +28,8 @@
         <activity android:name=".fragmentbackstack.FragmentBackStack"></activity>
         <activity android:name=".fragmentapp_handset.HandSetActivity"></activity>
         <activity android:name=".fragmentapp_handset.DetailActivity"></activity>
+        <activity android:name=".actionbar.MyActionBar"></activity>
+        <activity android:name=".actionbar.MyActionBarButton"></activity>
     </application>
 
 </manifest>
