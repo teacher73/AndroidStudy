@@ -11,5 +11,6 @@
     <string name="fragmentmaintwo">FragmentTwo</string>
     <string name="fragmentapp">FragmentList</string>
     <string name="backstackfragment">FragmentBackStack</string>
+    <string name="handsetfragment">Fragment HandSet</string>
 
 </resources>

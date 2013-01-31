@@ -1,6 +1,7 @@
 package kr.saeildamil.androidstudy;
 
 import kr.saeildamil.androidstudy.fragmentapp.FragmentAppList;
+import kr.saeildamil.androidstudy.fragmentapp_handset.HandSetActivity;
 import kr.saeildamil.androidstudy.fragmentbackstack.FragmentBackStack;
 import kr.saeildamil.androidstudy.fragmentcode.FragmentMainTwo;
 import kr.saeildamil.androidstudy.fragmentxml.FragmentMainOne;
@@ -30,6 +31,9 @@ public class MainActivity extends Activity {
 			break;
 		case R.id.main_btn04:
 			startActivity(new Intent(MainActivity.this, FragmentBackStack.class));
+			break;
+		case R.id.main_btn05:
+			startActivity(new Intent(MainActivity.this, HandSetActivity.class));
 			break;
 		}
 	}
