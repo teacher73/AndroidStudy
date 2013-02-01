@@ -3,6 +3,7 @@ package kr.saeildamil.androidstudy;
 import kr.saeildamil.androidstudy.actionbar.MyActionBar;
 import kr.saeildamil.androidstudy.actionbar.MyActionBarButton;
 import kr.saeildamil.androidstudy.actionbar.MyActionBarSearchView;
+import kr.saeildamil.androidstudy.actionbar.MyActionBarTab;
 import kr.saeildamil.androidstudy.fragmentapp.FragmentAppList;
 import kr.saeildamil.androidstudy.fragmentapp_handset.HandSetActivity;
 import kr.saeildamil.androidstudy.fragmentbackstack.FragmentBackStack;
@@ -46,6 +47,9 @@ public class MainActivity extends Activity {
 			break;
 		case R.id.main_btn08:
 			startActivity(new Intent(MainActivity.this, MyActionBarSearchView.class));
+			break;
+		case R.id.main_btn09:
+			startActivity(new Intent(MainActivity.this, MyActionBarTab.class));
 			break;
 		}
 	}

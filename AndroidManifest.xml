@@ -31,6 +31,7 @@
         <activity android:name=".actionbar.MyActionBar"></activity>
         <activity android:name=".actionbar.MyActionBarButton"></activity>
         <activity android:name=".actionbar.MyActionBarSearchView"></activity>
+        <activity android:name=".actionbar.MyActionBarTab"></activity>
     </application>
 
 </manifest>
