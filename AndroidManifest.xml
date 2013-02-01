@@ -30,6 +30,7 @@
         <activity android:name=".fragmentapp_handset.DetailActivity"></activity>
         <activity android:name=".actionbar.MyActionBar"></activity>
         <activity android:name=".actionbar.MyActionBarButton"></activity>
+        <activity android:name=".actionbar.MyActionBarSearchView"></activity>
     </application>
 
 </manifest>
