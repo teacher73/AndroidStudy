@@ -1,99 +1,115 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/textView1"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center_horizontal"
-        android:text="@string/mainlist"
-        android:textColor="#ffff0000"
-        android:textSize="20sp" />
+         >
 
-    <Button
-        android:id="@+id/main_btn01"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:onClick="mOnClick"
-        android:text="@string/fragmentoneactivityname" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:text="@string/mainlist"
+            android:textColor="#ffff0000"
+            android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/main_btn02"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/main_btn01"
-        android:onClick="mOnClick"
-        android:text="@string/fragmentmaintwo" />
+        <Button
+            android:id="@+id/main_btn01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:onClick="mOnClick"
+            android:text="@string/fragmentoneactivityname" />
 
-    <Button
-        android:id="@+id/main_btn03"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/main_btn02"
-        android:onClick="mOnClick"
-        android:text="@string/fragmentapp" />
+        <Button
+            android:id="@+id/main_btn02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn01"
+            android:onClick="mOnClick"
+            android:text="@string/fragmentmaintwo" />
 
-    <Button
-        android:id="@+id/main_btn04"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/main_btn03"
-        android:onClick="mOnClick"
-        android:text="@string/backstackfragment" />
+        <Button
+            android:id="@+id/main_btn03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn02"
+            android:onClick="mOnClick"
+            android:text="@string/fragmentapp" />
 
-    <Button
-        android:id="@+id/main_btn05"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/main_btn04"
-        android:onClick="mOnClick"
-        android:text="@string/handsetfragment" />
+        <Button
+            android:id="@+id/main_btn04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn03"
+            android:onClick="mOnClick"
+            android:text="@string/backstackfragment" />
 
-    <Button
-        android:id="@+id/main_btn06"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/main_btn05"
-        android:onClick="mOnClick"
-        android:text="ActionBar" />
+        <Button
+            android:id="@+id/main_btn05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn04"
+            android:onClick="mOnClick"
+            android:text="@string/handsetfragment" />
 
-    <Button
-        android:id="@+id/main_btn07"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/main_btn06"
-        android:onClick="mOnClick"
-        android:text="ActionBar Button" />
+        <Button
+            android:id="@+id/main_btn06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn05"
+            android:onClick="mOnClick"
+            android:text="ActionBar" />
 
-    <Button
-        android:id="@+id/main_btn08"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/main_btn07"
-        android:onClick="mOnClick"
-        android:text="ActionBar SearchView" />
+        <Button
+            android:id="@+id/main_btn07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn06"
+            android:onClick="mOnClick"
+            android:text="ActionBar Button" />
 
-    <Button
-        android:id="@+id/main_btn09"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/main_btn08"
-        android:onClick="mOnClick"
-        android:text="MyActionBarTab" />
+        <Button
+            android:id="@+id/main_btn08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn07"
+            android:onClick="mOnClick"
+            android:text="ActionBar SearchView" />
 
-</RelativeLayout>
+        <Button
+            android:id="@+id/main_btn09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn08"
+            android:onClick="mOnClick"
+            android:text="MyActionBarTab" />
+
+        <Button
+            android:id="@+id/main_btn10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn09"
+            android:onClick="mOnClick"
+            android:text="MyActionBarTabList" />
+
+    </RelativeLayout>
+
+</ScrollView>

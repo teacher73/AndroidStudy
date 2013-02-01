@@ -9,6 +9,7 @@ package kr.saeildamil.androidstudy;
 
 public final class R {
     public static final class array {
+        public static final int actionbar_tab_list=0x7f040001;
         public static final int fraglists=0x7f040000;
     }
     public static final class attr {
@@ -17,22 +18,22 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int FragmentOne_tv=0x7f080014;
-        public static final int RelativeLayout1=0x7f080013;
-        public static final int action_search=0x7f08001b;
-        public static final int add=0x7f08001c;
-        public static final int body=0x7f080017;
-        public static final int button_black=0x7f08000b;
-        public static final int button_white=0x7f08000a;
-        public static final int detail=0x7f080012;
-        public static final int detail_tv=0x7f08000d;
-        public static final int detailfragment_tv=0x7f08000c;
-        public static final int etc=0x7f080020;
-        public static final int fragment1=0x7f08000e;
-        public static final int fragment2=0x7f080010;
-        public static final int imageView1=0x7f08001a;
-        public static final int list=0x7f080011;
-        public static final int listfraghandset_list=0x7f08000f;
+        public static final int FragmentOne_tv=0x7f080015;
+        public static final int RelativeLayout1=0x7f080014;
+        public static final int action_search=0x7f08001d;
+        public static final int add=0x7f08001e;
+        public static final int body=0x7f080018;
+        public static final int button_black=0x7f08000c;
+        public static final int button_white=0x7f08000b;
+        public static final int detail=0x7f080013;
+        public static final int detail_tv=0x7f08000e;
+        public static final int detailfragment_tv=0x7f08000d;
+        public static final int etc=0x7f080022;
+        public static final int fragment1=0x7f08000f;
+        public static final int fragment2=0x7f080011;
+        public static final int imageView1=0x7f08001b;
+        public static final int list=0x7f080012;
+        public static final int listfraghandset_list=0x7f080010;
         public static final int main_btn01=0x7f080001;
         public static final int main_btn02=0x7f080002;
         public static final int main_btn03=0x7f080003;
@@ -42,13 +43,15 @@ public final class R {
         public static final int main_btn07=0x7f080007;
         public static final int main_btn08=0x7f080008;
         public static final int main_btn09=0x7f080009;
-        public static final int myactionbar_notitle=0x7f080016;
-        public static final int myactionbar_showtitle=0x7f080015;
-        public static final int myactionbarbutton_tv=0x7f080018;
-        public static final int myactionbartab_fragment=0x7f080019;
-        public static final int refresh=0x7f08001d;
-        public static final int search=0x7f08001e;
-        public static final int share=0x7f08001f;
+        public static final int main_btn10=0x7f08000a;
+        public static final int myactionbar_notitle=0x7f080017;
+        public static final int myactionbar_showtitle=0x7f080016;
+        public static final int myactionbarbutton_tv=0x7f080019;
+        public static final int myactionbartab_fragment=0x7f08001a;
+        public static final int myactionbartablist_fragment=0x7f08001c;
+        public static final int refresh=0x7f08001f;
+        public static final int search=0x7f080020;
+        public static final int share=0x7f080021;
         public static final int textView1=0x7f080000;
     }
     public static final class layout {
@@ -68,7 +71,10 @@ public final class R {
         public static final int myactionbartab=0x7f03000d;
         public static final int myactionbartab_fragment1=0x7f03000e;
         public static final int myactionbartab_fragment2=0x7f03000f;
-        public static final int searchview=0x7f030010;
+        public static final int myactionbartablist=0x7f030010;
+        public static final int myactionbartablist_fragment1=0x7f030011;
+        public static final int myactionbartablist_fragment2=0x7f030012;
+        public static final int searchview=0x7f030013;
     }
     public static final class menu {
         public static final int activity_main=0x7f070000;
