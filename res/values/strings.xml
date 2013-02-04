@@ -12,5 +12,6 @@
     <string name="fragmentapp">FragmentList</string>
     <string name="backstackfragment">FragmentBackStack</string>
     <string name="handsetfragment">Fragment HandSet</string>
+    <string name="finishactivity">액티비티 종료</string>
 
 </resources>

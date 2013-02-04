@@ -33,6 +33,7 @@
         <activity android:name=".actionbar.MyActionBarSearchView"></activity>
         <activity android:name=".actionbar.MyActionBarTab"></activity>
         <activity android:name=".actionbar.MyActionBarTabList"></activity>
+        <activity android:name=".activitylifecycle.ActivityLifeCycle"></activity>
     </application>
 
 </manifest>

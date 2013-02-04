@@ -110,6 +110,14 @@
             android:onClick="mOnClick"
             android:text="MyActionBarTabList" />
 
+        <Button
+            android:id="@+id/main_btn11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_btn10"
+            android:onClick="mOnClick"
+            android:text="액티비티 라이프 사이클" />
+
     </RelativeLayout>
 
 </ScrollView>
