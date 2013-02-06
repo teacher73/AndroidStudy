@@ -11,6 +11,8 @@ import kr.saeildamil.androidstudy.fragmentapp_handset.HandSetActivity;
 import kr.saeildamil.androidstudy.fragmentbackstack.FragmentBackStack;
 import kr.saeildamil.androidstudy.fragmentcode.FragmentMainTwo;
 import kr.saeildamil.androidstudy.fragmentxml.FragmentMainOne;
+import kr.saeildamil.androidstudy.gallery.MyGallery;
+import kr.saeildamil.androidstudy.gallery.MyGallerySd;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -58,6 +60,12 @@ public class MainActivity extends Activity {
 			break;
 		case R.id.main_btn11:
 			startActivity(new Intent(MainActivity.this, ActivityLifeCycle.class));
+			break;
+		case R.id.main_btn12:
+			startActivity(new Intent(MainActivity.this, MyGallery.class));
+			break;
+		case R.id.main_btn13:
+			startActivity(new Intent(MainActivity.this, MyGallerySd.class));
 			break;
 		}
 	}

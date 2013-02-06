@@ -11,31 +11,38 @@ public final class R {
     public static final class array {
         public static final int actionbar_tab_list=0x7f040001;
         public static final int fraglists=0x7f040000;
+        public static final int gallery_img_lists=0x7f040002;
     }
     public static final class attr {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int pic1=0x7f020001;
+        public static final int pic2=0x7f020002;
+        public static final int pic3=0x7f020003;
+        public static final int pic4=0x7f020004;
+        public static final int pic5=0x7f020005;
+        public static final int pic6=0x7f020006;
     }
     public static final class id {
-        public static final int FragmentOne_tv=0x7f080018;
-        public static final int RelativeLayout1=0x7f080017;
-        public static final int action_search=0x7f080020;
-        public static final int activity_lifecycle_tv=0x7f08000d;
-        public static final int activitylifecycle_finish_btn=0x7f08000c;
-        public static final int add=0x7f080021;
-        public static final int body=0x7f08001b;
-        public static final int button_black=0x7f08000f;
-        public static final int button_white=0x7f08000e;
-        public static final int detail=0x7f080016;
-        public static final int detail_tv=0x7f080011;
-        public static final int detailfragment_tv=0x7f080010;
-        public static final int etc=0x7f080025;
-        public static final int fragment1=0x7f080012;
-        public static final int fragment2=0x7f080014;
-        public static final int imageView1=0x7f08001e;
-        public static final int list=0x7f080015;
-        public static final int listfraghandset_list=0x7f080013;
+        public static final int FragmentOne_tv=0x7f08001a;
+        public static final int RelativeLayout1=0x7f080019;
+        public static final int action_search=0x7f080024;
+        public static final int activity_lifecycle_tv=0x7f08000f;
+        public static final int activitylifecycle_finish_btn=0x7f08000e;
+        public static final int add=0x7f080025;
+        public static final int body=0x7f08001d;
+        public static final int button_black=0x7f080011;
+        public static final int button_white=0x7f080010;
+        public static final int detail=0x7f080018;
+        public static final int detail_tv=0x7f080013;
+        public static final int detailfragment_tv=0x7f080012;
+        public static final int etc=0x7f080029;
+        public static final int fragment1=0x7f080014;
+        public static final int fragment2=0x7f080016;
+        public static final int imageView1=0x7f080020;
+        public static final int list=0x7f080017;
+        public static final int listfraghandset_list=0x7f080015;
         public static final int main_btn01=0x7f080001;
         public static final int main_btn02=0x7f080002;
         public static final int main_btn03=0x7f080003;
@@ -47,14 +54,18 @@ public final class R {
         public static final int main_btn09=0x7f080009;
         public static final int main_btn10=0x7f08000a;
         public static final int main_btn11=0x7f08000b;
-        public static final int myactionbar_notitle=0x7f08001a;
-        public static final int myactionbar_showtitle=0x7f080019;
-        public static final int myactionbarbutton_tv=0x7f08001c;
-        public static final int myactionbartab_fragment=0x7f08001d;
-        public static final int myactionbartablist_fragment=0x7f08001f;
-        public static final int refresh=0x7f080022;
-        public static final int search=0x7f080023;
-        public static final int share=0x7f080024;
+        public static final int main_btn12=0x7f08000c;
+        public static final int main_btn13=0x7f08000d;
+        public static final int myactionbar_notitle=0x7f08001c;
+        public static final int myactionbar_showtitle=0x7f08001b;
+        public static final int myactionbarbutton_tv=0x7f08001e;
+        public static final int myactionbartab_fragment=0x7f08001f;
+        public static final int myactionbartablist_fragment=0x7f080021;
+        public static final int mygallery_gallery=0x7f080022;
+        public static final int mygallery_imageView=0x7f080023;
+        public static final int refresh=0x7f080026;
+        public static final int search=0x7f080027;
+        public static final int share=0x7f080028;
         public static final int textView1=0x7f080000;
     }
     public static final class layout {
@@ -78,7 +89,8 @@ public final class R {
         public static final int myactionbartablist=0x7f030011;
         public static final int myactionbartablist_fragment1=0x7f030012;
         public static final int myactionbartablist_fragment2=0x7f030013;
-        public static final int searchview=0x7f030014;
+        public static final int mygallery=0x7f030014;
+        public static final int searchview=0x7f030015;
     }
     public static final class menu {
         public static final int activity_main=0x7f070000;
@@ -126,4 +138,25 @@ public final class R {
          */
         public static final int AppTheme=0x7f060001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a Galldery1.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Galldery1_android_galleryItemBackground kr.saeildamil.androidstudy:android_galleryItemBackground}</code></td><td></td></tr>
+           </table>
+           @see #Galldery1_android_galleryItemBackground
+         */
+        public static final int[] Galldery1 = {
+            0x0101004c
+        };
+        /**
+          <p>This symbol is the offset where the {@link kr.saeildamil.androidstudy.R.attr#android_galleryItemBackground}
+          attribute's value can be found in the {@link #Galldery1} array.
+          @attr name android:android_galleryItemBackground
+        */
+        public static final int Galldery1_android_galleryItemBackground = 0;
+    };
 }

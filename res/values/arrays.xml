@@ -11,4 +11,12 @@
         <item >Text Fragment</item>
         <item >Image Fragment</item>
     </string-array>
+    <string-array name="gallery_img_lists">
+        <item >pic1</item>
+        <item >pic2</item>
+        <item >pic3</item>
+        <item >pic4</item>
+        <item >pic5</item>
+        <item >pic6</item>
+    </string-array>
 </resources>
