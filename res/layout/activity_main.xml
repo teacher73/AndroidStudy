@@ -134,6 +134,14 @@
             android:layout_below="@+id/main_btn12"
             android:onClick="mOnClick"
             android:text="갤러리 외부 메모리" />
+		<Button
+            android:id="@+id/main_btn14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn13"
+            android:onClick="mOnClick"
+            android:text="슬라이딩 드로어" />
     </RelativeLayout>
 
 </ScrollView>

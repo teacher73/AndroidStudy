@@ -44,7 +44,6 @@ public class MyGallerySd extends Activity {
 		
 		columnIndex = cursor.getColumnIndexOrThrow(MediaStore.Images.Thumbnails._ID);
 		
-
 		Gallery gallery = (Gallery) findViewById(R.id.mygallery_gallery);
 		gallery.setAdapter(new ImageAdapter(this));
 		gallery.setOnItemClickListener(new OnItemClickListener() {
