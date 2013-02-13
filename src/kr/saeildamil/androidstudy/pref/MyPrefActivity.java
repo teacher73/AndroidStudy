@@ -11,7 +11,11 @@
 package kr.saeildamil.androidstudy.pref;
 
 import kr.saeildamil.androidstudy.R;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.preference.Preference;
+import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceActivity;
 
 /**
@@ -25,5 +29,15 @@ public class MyPrefActivity extends PreferenceActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);	
 		addPreferencesFromResource(R.xml.prefs);
+		
+		Preference p = findPreference("mobile");
+		p.setOnPreferenceClickListener(new OnPreferenceClickListener() {
+			public boolean onPreferenceClick(Preference preference) {
+				Uri uri = Uri.parse("http://www.saeildamil.kr");
+				Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+				startActivity(intent);
+				return false;
+			}
+		});
 	}
 }
