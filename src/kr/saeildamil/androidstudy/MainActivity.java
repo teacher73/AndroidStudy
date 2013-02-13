@@ -14,6 +14,7 @@ import kr.saeildamil.androidstudy.fragmentxml.FragmentMainOne;
 import kr.saeildamil.androidstudy.gallery.MyGallery;
 import kr.saeildamil.androidstudy.gallery.MyGallerySd;
 import kr.saeildamil.androidstudy.mylayout.MyLayout;
+import kr.saeildamil.androidstudy.pref.MyPref;
 import kr.saeildamil.androidstudy.slidingdraw.MySlidingDraw;
 import android.app.Activity;
 import android.content.Intent;
@@ -74,6 +75,9 @@ public class MainActivity extends Activity {
 			break;
 		case R.id.main_btn15:
 			startActivity(new Intent(MainActivity.this, MyLayout.class));
+			break;
+		case R.id.main_btn16:
+			startActivity(new Intent(MainActivity.this, MyPref.class));
 			break;
 		}
 	}

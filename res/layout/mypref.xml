@@ -5,17 +5,17 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/myactionbar_showtitle"
+        android:id="@+id/mypref_btn01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="mOnClick"
-        android:text="타이틀 보기" />
+        android:text="환경설정 - PreferenceActivity" />
 
     <Button
-        android:id="@+id/myactionbar_notitle"
+        android:id="@+id/mypref_btn02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="mOnClick"
-        android:text="타이틀 안보기" />
-    
+        android:text="환경설정 - PreferenceFragment" />
+
 </LinearLayout>

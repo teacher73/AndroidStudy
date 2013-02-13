@@ -150,6 +150,14 @@
             android:layout_below="@+id/main_btn14"
             android:onClick="mOnClick"
             android:text="My Layout" />
+			<Button
+            android:id="@+id/main_btn16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn15"
+            android:onClick="mOnClick"
+            android:text="Preference" />
     </RelativeLayout>
 
 </ScrollView>
