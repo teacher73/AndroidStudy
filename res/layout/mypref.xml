@@ -18,4 +18,11 @@
         android:onClick="mOnClick"
         android:text="환경설정 - PreferenceFragment" />
 
+    <Button
+        android:id="@+id/mypref_btn03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="환경설정 보기" />
+
 </LinearLayout>

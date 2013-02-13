@@ -29,22 +29,28 @@ public final class R {
     }
     public static final class id {
         public static final int FragmentOne_tv=0x7f09001d;
+        public static final int LinearLayout1=0x7f09002c;
         public static final int RelativeLayout1=0x7f09001c;
-        public static final int action_search=0x7f09002e;
+        public static final int TextView01=0x7f090031;
+        public static final int TextView02=0x7f090037;
+        public static final int TextView03=0x7f090035;
+        public static final int TextView04=0x7f09002d;
+        public static final int TextView05=0x7f09002f;
+        public static final int action_search=0x7f09003e;
         public static final int activity_lifecycle_tv=0x7f090012;
         public static final int activitylifecycle_finish_btn=0x7f090011;
-        public static final int add=0x7f09002f;
+        public static final int add=0x7f09003f;
         public static final int body=0x7f090020;
         public static final int button_black=0x7f090014;
         public static final int button_white=0x7f090013;
-        public static final int content=0x7f09002c;
+        public static final int content=0x7f09003c;
         public static final int detail=0x7f09001b;
         public static final int detail_tv=0x7f090016;
         public static final int detailfragment_tv=0x7f090015;
-        public static final int etc=0x7f090033;
+        public static final int etc=0x7f090043;
         public static final int fragment1=0x7f090017;
         public static final int fragment2=0x7f090019;
-        public static final int handle=0x7f09002d;
+        public static final int handle=0x7f09003d;
         public static final int imageView1=0x7f090023;
         public static final int layout=0x7f090027;
         public static final int list=0x7f09001a;
@@ -73,13 +79,23 @@ public final class R {
         public static final int mygallery_gallery=0x7f090025;
         public static final int mygallery_imageView=0x7f090026;
         public static final int mylayout_tv=0x7f090028;
+        public static final int mypref_bluetooth=0x7f090036;
         public static final int mypref_btn01=0x7f090029;
         public static final int mypref_btn02=0x7f09002a;
-        public static final int refresh=0x7f090030;
-        public static final int search=0x7f090031;
-        public static final int share=0x7f090032;
-        public static final int slidingDrawer1=0x7f09002b;
+        public static final int mypref_btn03=0x7f09002b;
+        public static final int mypref_device=0x7f090038;
+        public static final int mypref_network=0x7f090034;
+        public static final int mypref_site=0x7f090030;
+        public static final int mypref_username=0x7f09002e;
+        public static final int mypref_wifi=0x7f090032;
+        public static final int myprefview_leftBtn=0x7f090039;
+        public static final int myprefview_rightBtn=0x7f09003a;
+        public static final int refresh=0x7f090040;
+        public static final int search=0x7f090041;
+        public static final int share=0x7f090042;
+        public static final int slidingDrawer1=0x7f09003b;
         public static final int textView1=0x7f090000;
+        public static final int textView2=0x7f090033;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -105,8 +121,9 @@ public final class R {
         public static final int mygallery=0x7f030014;
         public static final int mylayout=0x7f030015;
         public static final int mypref=0x7f030016;
-        public static final int myslidingdraw=0x7f030017;
-        public static final int searchview=0x7f030018;
+        public static final int myprefview=0x7f030017;
+        public static final int myslidingdraw=0x7f030018;
+        public static final int searchview=0x7f030019;
     }
     public static final class menu {
         public static final int activity_main=0x7f080000;

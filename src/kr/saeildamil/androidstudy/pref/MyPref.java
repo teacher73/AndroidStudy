@@ -38,6 +38,7 @@ public class MyPref extends Activity {
 		case R.id.mypref_btn02:
 			startActivity(new Intent(MyPref.this, MyPrefFragment.class));
 		default:
+			startActivity(new Intent(MyPref.this, MyPrefView.class));
 			break;
 		}
 	}
