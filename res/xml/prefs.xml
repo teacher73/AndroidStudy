@@ -3,10 +3,10 @@
 
     <PreferenceCategory android:title="프로그램 정보" >
         <EditTextPreference
-            android:dialogTitle="장치이름"
-            android:key="device"
-            android:summary="장치 이름을 설정하세요."
-            android:title="장치이름" />
+            android:dialogTitle="사용자 이름"
+            android:key="username"
+            android:summary="사용자 이름을 설정하세요."
+            android:title="사용자이름" />
 
         <Preference
             android:key="mobile"
