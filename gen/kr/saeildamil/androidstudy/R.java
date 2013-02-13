@@ -12,6 +12,8 @@ public final class R {
         public static final int actionbar_tab_list=0x7f050001;
         public static final int fraglists=0x7f050000;
         public static final int gallery_img_lists=0x7f050002;
+        public static final int network_codes=0x7f050004;
+        public static final int networks=0x7f050003;
     }
     public static final class attr {
     }

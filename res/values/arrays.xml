@@ -19,4 +19,14 @@
         <item >pic5</item>
         <item >pic6</item>
     </string-array>
+    <string-array name="networks">
+        <item >접속 허용</item>
+        <item >접속여부 물어보기</item>
+        <item >허용하지 않음</item>
+    </string-array>
+    <string-array name="network_codes">
+        <item >010</item>
+        <item >011</item>
+        <item >012</item>
+    </string-array>
 </resources>
