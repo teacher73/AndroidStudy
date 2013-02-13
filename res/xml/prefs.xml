@@ -27,9 +27,17 @@
             android:summary="과금되는 데이터 네트워크(3G 등) 연결방식을 선택할 수 있습니다."
             android:title="데이터 네트워크 설정" />
     </PreferenceCategory>
-    <PreferenceCategory android:title="Bluetooth 및 장치이름 설정">
-        <CheckBoxPreference android:summary="Bluetooth  켜기" android:key="bluetooth" android:title="Bluetooth"/>
-        <EditTextPreference android:summary="장치 이름을 설정하세요." android:key="device" android:dialogTitle="장치이름" android:title="장치이름"/>
+    <PreferenceCategory android:title="Bluetooth 및 장치이름 설정" >
+        <CheckBoxPreference
+            android:key="bluetooth"
+            android:summary="Bluetooth  켜기"
+            android:title="Bluetooth" />
+
+        <EditTextPreference
+            android:dialogTitle="장치이름"
+            android:key="device"
+            android:summary="장치 이름을 설정하세요."
+            android:title="장치이름" />
     </PreferenceCategory>
 
 </PreferenceScreen>

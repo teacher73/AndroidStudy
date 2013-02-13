@@ -51,9 +51,9 @@ public class MyPrefView extends Activity {
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 		userName.setText(prefs.getString("username", ""));
 		userSite.setText(prefs.getString("mobile", "http://www.naver.com"));
-		wifi.setText(new Boolean(prefs.getBoolean("wifi", false)).toString());
+		wifi.setText(prefs.getBoolean("wifi", false)+"");
 		network.setText(prefs.getString("network", "000"));
-		bluetooth.setText(new Boolean(prefs.getBoolean("bluetooth", false)).toString());
+		bluetooth.setText(prefs.getBoolean("bluetooth", false)+"");
 		device.setText(prefs.getString("device", ""));
 	}
 	
