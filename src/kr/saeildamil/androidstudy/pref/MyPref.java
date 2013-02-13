@@ -24,12 +24,8 @@ import android.view.View;
  */
 
 public class MyPref extends Activity {
-	/**
-	 * @see android.app.Activity#onCreate(android.os.Bundle)
-	 */
-	@Override
+
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.mypref);
 	}

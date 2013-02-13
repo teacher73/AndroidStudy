@@ -38,6 +38,9 @@
         <activity android:name=".gallery.MyGallerySd"></activity>
         <activity android:name=".slidingdraw.MySlidingDraw"></activity>
         <activity android:name=".mylayout.MyLayout"></activity>
+        <activity android:name=".pref.MyPref"></activity>
+        <activity android:name=".pref.MyPrefActivity"></activity>
+        <activity android:name=".pref.MyPrefFragment"></activity>
     </application>
 
 </manifest>
