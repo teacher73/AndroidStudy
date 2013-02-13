@@ -17,13 +17,10 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.Gallery;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class MyGallerySd extends Activity {
 	private Cursor cursor;
 	
-	int[] resImgLists;
-
 	private int columnIndex;
 	
 
@@ -34,10 +31,6 @@ public class MyGallerySd extends Activity {
 		
 		String[] proj = { MediaStore.Images.Thumbnails._ID };
 		
-		for(int i=0; i<proj.length; i++){
-			Toast.makeText(this, proj[i], Toast.LENGTH_LONG).show();
-		}
-		
 		cursor = managedQuery(MediaStore.Images.Thumbnails.EXTERNAL_CONTENT_URI, 
 				proj, null, null, null);
 		startManagingCursor(cursor);
@@ -46,12 +39,18 @@ public class MyGallerySd extends Activity {
 		
 		Gallery gallery = (Gallery) findViewById(R.id.mygallery_gallery);
 		gallery.setAdapter(new ImageAdapter(this));
+		
 		gallery.setOnItemClickListener(new OnItemClickListener() {
 			public void onItemClick(AdapterView<?> parent, View v, int position ,long id) {
+				
 				String[] proj = { MediaStore.Images.Media.DATA };
+				
 				Cursor dataCursor = managedQuery(MediaStore.Images.Thumbnails.EXTERNAL_CONTENT_URI, 
 						proj, null, null, null);
+				
 				int columnIndex = dataCursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA );
+				
+				dataCursor.moveToPosition(position);
 				
 				String fileName = dataCursor.getString(columnIndex);
 				
@@ -59,7 +58,6 @@ public class MyGallerySd extends Activity {
 				
 				ImageView imageView = (ImageView) findViewById(R.id.mygallery_imageView);
 				imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
-				//imageView.setImageResource(resImgLists[position]);
 				imageView.setImageBitmap(bitmap);
 				dataCursor.close();
 			}
@@ -101,6 +99,7 @@ public class MyGallerySd extends Activity {
 				imageView = new ImageView(context);
 				imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
 				imageView.setLayoutParams(new Gallery.LayoutParams(100, 80));
+				imageView.setBackgroundResource(itemBackground);
 			}else{
 				imageView = (ImageView) convertView;
 			}
@@ -108,8 +107,6 @@ public class MyGallerySd extends Activity {
 			cursor.moveToPosition(position);
 			int id = cursor.getInt(columnIndex);
 			
-			//imageView.setImageResource(resImgLists[position]);
-			//imageView.setBackgroundResource(itemBackground);
 			imageView.setImageURI(Uri.withAppendedPath(MediaStore.Images.Thumbnails.EXTERNAL_CONTENT_URI, "" + id));
 			
 			return imageView;
