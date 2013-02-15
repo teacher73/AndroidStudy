@@ -46,7 +46,7 @@
             android:title="자동 로그인" />
         <kr.saeildamil.androidstudy.autologin.AutoLoginPref 
             android:dialogTitle="자동 로그인"
-            android:key="autologin"
+            android:key="my"
             android:summary="자동 로그인 설정"
             android:title="자동 로그인"
             android:dependency="autologin"

@@ -39,13 +39,11 @@ public class AutoLoginPref extends DialogPreference {
 	
 	public void onClick(DialogInterface dialog, int witch){
 		if (witch ==DialogInterface.BUTTON_POSITIVE){
-			prefs = getContext().getSharedPreferences(getKey(), Context.MODE_PRIVATE);
+
 			Editor editor = prefs.edit();
-			
 			editor.putString("id", idEdit.getText().toString());
 			editor.putString("pw", pwEdit.getText().toString());
-			editor.putBoolean("autologin", true);
-			
+
 			editor.commit();
 		}
 	}
