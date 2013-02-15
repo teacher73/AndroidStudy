@@ -39,5 +39,18 @@
             android:summary="장치 이름을 설정하세요."
             android:title="장치이름" />
     </PreferenceCategory>
+    <PreferenceCategory android:title="자동로그인" >
+        <CheckBoxPreference
+            android:key="autologin"
+            android:summary="자동 로그인 설정"
+            android:title="자동 로그인" />
+        <kr.saeildamil.androidstudy.autologin.AutoLoginPref 
+            android:dialogTitle="자동 로그인"
+            android:key="autologin"
+            android:summary="자동 로그인 설정"
+            android:title="자동 로그인"
+            android:dependency="autologin"
+            />
+    </PreferenceCategory>
 
 </PreferenceScreen>

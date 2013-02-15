@@ -21,31 +21,5 @@ public class AutoLoginPrefDialog extends PreferenceActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		addPreferencesFromResource(R.xml.prefs);
-		
-		prefs = PreferenceManager.getDefaultSharedPreferences(this);
-
-		
-		/*final Editor editor = prefs.edit();
-		
-		chkprefs= (CheckBoxPreference) getPreferenceScreen().findPreference("autologin");
-		loginDlg = (AutoLoginPref) getPreferenceScreen().findPreference("my");
-		
-		boolean chk = prefs.getBoolean("autologin", false);
-		
-
-		chkprefs.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
-			public boolean onPreferenceChange(Preference preference, Object newValue) {
-				Toast.makeText(getApplicationContext(), "Check : "  + newValue.toString() , Toast.LENGTH_LONG).show();
-
-				if ((Boolean)newValue){
-					loginDlg.setEnabled(true);
-					editor.putBoolean("autologin", true);
-				}else{
-					loginDlg.setEnabled(false);
-					editor.putBoolean("autologin", false);
-				}
-				return false;
-			}
-		});*/
 	}
 }
