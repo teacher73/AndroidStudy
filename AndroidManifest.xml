@@ -42,6 +42,9 @@
         <activity android:name=".pref.MyPrefActivity"></activity>
         <activity android:name=".pref.MyPrefFragment"></activity>
         <activity android:name=".pref.MyPrefView"></activity>
+        <activity android:name=".statusbar.MyStatusBar"></activity>
+        <activity android:name=".autologin.AutoLogin"></activity>
+        <activity android:name=".autologin.AutoLoginPrefDialog"></activity>
     </application>
 
 </manifest>

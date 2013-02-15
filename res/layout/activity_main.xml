@@ -1,13 +1,12 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        tools:context=".MainActivity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity" >
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-         >
+        android:layout_height="wrap_content" >
 
         <TextView
             android:id="@+id/textView1"
@@ -126,7 +125,8 @@
             android:layout_below="@+id/main_btn11"
             android:onClick="mOnClick"
             android:text="갤러리" />
-		<Button
+
+        <Button
             android:id="@+id/main_btn13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -134,7 +134,8 @@
             android:layout_below="@+id/main_btn12"
             android:onClick="mOnClick"
             android:text="갤러리 외부 메모리" />
-		<Button
+
+        <Button
             android:id="@+id/main_btn14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -142,7 +143,8 @@
             android:layout_below="@+id/main_btn13"
             android:onClick="mOnClick"
             android:text="슬라이딩 드로어" />
-		<Button
+
+        <Button
             android:id="@+id/main_btn15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -150,7 +152,8 @@
             android:layout_below="@+id/main_btn14"
             android:onClick="mOnClick"
             android:text="My Layout" />
-			<Button
+
+        <Button
             android:id="@+id/main_btn16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -158,6 +161,14 @@
             android:layout_below="@+id/main_btn15"
             android:onClick="mOnClick"
             android:text="Preference" />
+        <Button
+            android:id="@+id/main_btn17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn16"
+            android:onClick="mOnClick"
+            android:text="자동 로그인 Preference" />
     </RelativeLayout>
 
 </ScrollView>

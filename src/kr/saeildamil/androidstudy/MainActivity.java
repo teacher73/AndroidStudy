@@ -6,6 +6,7 @@ import kr.saeildamil.androidstudy.actionbar.MyActionBarSearchView;
 import kr.saeildamil.androidstudy.actionbar.MyActionBarTab;
 import kr.saeildamil.androidstudy.actionbar.MyActionBarTabList;
 import kr.saeildamil.androidstudy.activitylifecycle.ActivityLifeCycle;
+import kr.saeildamil.androidstudy.autologin.AutoLogin;
 import kr.saeildamil.androidstudy.fragmentapp.FragmentAppList;
 import kr.saeildamil.androidstudy.fragmentapp_handset.HandSetActivity;
 import kr.saeildamil.androidstudy.fragmentbackstack.FragmentBackStack;
@@ -79,6 +80,10 @@ public class MainActivity extends Activity {
 		case R.id.main_btn16:
 			startActivity(new Intent(MainActivity.this, MyPref.class));
 			break;
+		case R.id.main_btn17:
+			startActivity(new Intent(MainActivity.this, AutoLogin.class));
+			break;
+
 		}
 	}
 
