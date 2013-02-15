@@ -17,6 +17,7 @@ import kr.saeildamil.androidstudy.gallery.MyGallerySd;
 import kr.saeildamil.androidstudy.mylayout.MyLayout;
 import kr.saeildamil.androidstudy.pref.MyPref;
 import kr.saeildamil.androidstudy.slidingdraw.MySlidingDraw;
+import kr.saeildamil.androidstudy.statusbar.MyStatusBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -82,6 +83,9 @@ public class MainActivity extends Activity {
 			break;
 		case R.id.main_btn17:
 			startActivity(new Intent(MainActivity.this, AutoLogin.class));
+			break;
+		case R.id.main_btn18:
+			startActivity(new Intent(MainActivity.this, MyStatusBar.class));
 			break;
 
 		}

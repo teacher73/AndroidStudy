@@ -169,6 +169,15 @@
             android:layout_below="@+id/main_btn16"
             android:onClick="mOnClick"
             android:text="자동 로그인 Preference" />
+        
+        <Button
+            android:id="@+id/main_btn18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/main_btn17"
+            android:onClick="mOnClick"
+            android:text="상태바" />
     </RelativeLayout>
 
 </ScrollView>
